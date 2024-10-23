@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollWather {
+  height: 10px;
+  width: 100%;
+  background-color: lime;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll_wather linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll_wather {
+  to {
+    scale: 1 1;
+  }
+}
