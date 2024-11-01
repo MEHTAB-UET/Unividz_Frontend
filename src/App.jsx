@@ -12,11 +12,11 @@ const App = () => {
     <div className="flex flex-col">
       <div class="scrollWather"></div>
       <Navbar />
-      <Hero />
+      {/* <Hero />
       <Slider />
       <PowerAi />
       <Review />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
