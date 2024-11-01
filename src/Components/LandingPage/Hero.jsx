@@ -1,5 +1,6 @@
 import React from "react";
 import { FaWandMagicSparkles } from "react-icons/fa6";
+import { TbCameraSelfie } from "react-icons/tb";
 
 const Hero = () => {
   return (
@@ -12,8 +13,9 @@ const Hero = () => {
           <p className="text-lg">Turn your ideas into visual stories</p>
         </div>
         {/* Search Box */}
-        <div className="h-20px w-[50vw]  bg-white p-1 rounded-lg">
-          <div className="inline-block">logooo</div>
+        <div className="h-20px w-[50vw]  bg-white p-2 rounded-lg flex justify-between">
+          <TbCameraSelfie className="text-4xl" />
+
           <input
             type="text"
             className="h-full w-[50%] p-1 px-2 focus:outline-none font-playwright"
