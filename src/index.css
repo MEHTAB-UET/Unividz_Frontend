@@ -2,7 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-.scrollWather {
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 200rem) {
+  html {
+    font-size: 62.5%;
+    /* 10px */
+  }
+}
+@media (max-width: 80rem) {
+  html {
+    font-size: 55%;
+    /* 6px */
+  }
+}
+
+@media (min-width: 10rem) and (max-width: 45rem) {
+  html {
+    font-size: 30%;
+    /* 4px */
+  }
+}
+
+@media .scrollWather {
   height: 10px;
   width: 100%;
   background-color: lime;

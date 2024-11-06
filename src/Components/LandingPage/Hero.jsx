@@ -7,14 +7,14 @@ const Hero = () => {
     <div className=" flex h-[50dvh] w-full justify-center items-center bg-lightestPurple ">
       <div className="MainContent flex flex-col justify-center items-center">
         {/* Heading no 1 */}
-        <h1 className="text-2xl font-bold">Unividz Storyteller</h1>
+        <h1 className="text-[6rem] font-bold">Unividz Storyteller</h1>
         {/* description */}
         <div className="flex justify-center items-center">
           <p className="text-lg">Turn your ideas into visual stories</p>
         </div>
         {/* Search Box */}
         <div className="h-20px w-[50vw]  bg-white p-2 rounded-lg flex justify-between">
-          <TbCameraSelfie className="text-4xl" />
+          <TbCameraSelfie className="text-4xl inline-block" />
 
           <input
             type="text"

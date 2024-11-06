@@ -3,6 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        xs: "250px",
+        sm: "450px",
+        md: "800px",
+        lg: "1280px",
+      },
       fontFamily: {
         playwright: ['"Playwrite AU NSW"', "sans-serif"],
         Inconsolate: ['"Inconsolate"', "sans-serif"],
