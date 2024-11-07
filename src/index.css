@@ -25,7 +25,7 @@ html {
   }
 }
 
-@media .scrollWather {
+/* @media .scrollWather {
   height: 10px;
   width: 100%;
   background-color: lime;
@@ -36,7 +36,7 @@ html {
   transform-origin: left;
   animation: scroll_wather linear;
   animation-timeline: scroll();
-}
+} */
 
 @keyframes scroll_wather {
   to {

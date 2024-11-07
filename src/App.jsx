@@ -12,9 +12,9 @@ const App = () => {
     <div className="flex flex-col">
       <div class="scrollWather"></div>
       <Navbar />
-      {/* <Hero />
+      <Hero />
       <Slider />
-      <PowerAi />
+      {/* <PowerAi />
       <Review />
       <Footer /> */}
     </div>
