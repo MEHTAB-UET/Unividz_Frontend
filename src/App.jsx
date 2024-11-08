@@ -11,11 +11,11 @@ const App = () => {
   return (
     <div className="flex flex-col">
       <div class="scrollWather"></div>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Slider />
       <PowerAi />
-      <Review /> */}
+      <Review />
       <Footer />
     </div>
   );

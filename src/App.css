@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.hover-effect:hover {
+  filter: brightness(0) invert(0.5);
+}
+
 .logo-slider {
   animation: 20s slide infinite linear;
 }
