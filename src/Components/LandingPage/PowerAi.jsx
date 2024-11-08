@@ -1,4 +1,5 @@
 import React from "react";
+import imageOFModel from "../../../public/images/promt.jpg";
 
 const PowerAi = () => {
   return (
@@ -30,10 +31,7 @@ const PowerAi = () => {
                 </text>
               </div>
               <div className="flex justify-center items-center ">
-                <img
-                  src="../../../public/images/promt.jpg"
-                  alt="no image found"
-                />
+                <img src={imageOFModel} alt="no image found" />
               </div>
             </div>
           </div>

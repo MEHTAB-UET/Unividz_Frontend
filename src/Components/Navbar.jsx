@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <div className="bar">
         <div className=" h-[8rem] bg-lightPurple flex justify-center items-center px-[1rem] ">
-          <div className="flex mr-auto bg-white md:hidden">
+          <div className="flex mr-auto md:hidden">
             <RiMenuFill
               className="text-[5rem]   text-slate-600"
               onClick={() => setIsOpen(!isOpen)}
@@ -23,7 +23,7 @@ const Navbar = () => {
           </div>
         </div>
         {isOpen && (
-          <div className="sidebar w-[50%] h-[80vh]  bg-lightPurple md:hidden flex flex-col justify-between">
+          <div className="sidebar w-[50%] h-[80vh]  bg-lightPurple md:hidden flex flex-col justify-between  absolute top-[8rem] left-0 z-50">
             <div className="grid grid-cols-1 grid-rows-4  bg-lightPurple   h-[40%]">
               <div className="div flex justify-center items-center  border-b-2">
                 <a className="text-[2rem]">Home</a>
