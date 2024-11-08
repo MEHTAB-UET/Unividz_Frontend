@@ -5,7 +5,7 @@
 }
 
 .logo-slider {
-  animation: 10s slide infinite linear;
+  animation: 20s slide infinite linear;
 }
 @media (min-width: 45rem) {
   .logo-slider img {

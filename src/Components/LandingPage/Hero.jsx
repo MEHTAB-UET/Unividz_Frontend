@@ -15,12 +15,12 @@ const Hero = () => {
           </p>
         </div>
         {/* Search Box */}
-        <div className="h-20px w-[50rem]  bg-white p-2 rounded-lg flex justify-between">
+        <div className="h-2rem w-[50rem]  bg-white p-[2rem] md:p-[1rem] rounded-lg flex justify-between">
           <TbCameraSelfie className="text-4xl inline-block" />
 
           <input
             type="text"
-            className="h-full w-[50%] p-1 px-2 focus:outline-none font-playwright"
+            className="h-full w- p-1 px-2 focus:outline-none font-playwright"
             placeholder="Type into your ideas to generate "
           />
           <button className="float-right bg-slate-400 p-2 px-3 rounded-md hover:px-5 transition-all ease-in duration-2500 flex justify-center items-center ">

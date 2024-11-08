@@ -8,7 +8,7 @@ const Card = (prop) => {
         <div className="profile flex mt-6">
           <img
             src="../../../public/logos/profile.svg"
-            className="h-[30px] "
+            className="h-[3rem] "
             alt="profile"
           />
           <text className="font-sans ">{prop.userName}</text>
