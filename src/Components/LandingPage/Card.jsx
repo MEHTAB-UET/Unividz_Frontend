@@ -37,7 +37,7 @@ const Card = () => {
           {[...Array(3)].map((_, i) => (
             <span
               key={i}
-              className="h-7 w-7 bg-blue-600 text-white rounded-full border border-white flex items-center justify-center -mr-2"
+              className="h-7 w-7 bg-blue-400 text-white rounded-full border border-white flex items-center justify-center -mr-2"
             >
               <svg className="w-4 h-4 stroke-white" viewBox="0 0 24 24">
                 <circle cx="12" cy="12" r="9" strokeWidth="2" />
